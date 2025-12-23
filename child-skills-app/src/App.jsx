@@ -14,6 +14,7 @@ function App() {
   const [auditData, setAuditData] = useState({})
   const [showSummary, setShowSummary] = useState(false)
   const [showFinalSummary, setShowFinalSummary] = useState(false)
+  const [isTransitioning, setIsTransitioning] = useState(false)
 
   const currentAge = ages[currentAgeIndex]
   const currentSkills = skillsData.skills_by_age[currentAge]
@@ -42,7 +43,7 @@ function App() {
     localStorage.setItem('skillsAuditProgress', JSON.stringify(progress))
   }, [auditData, currentAgeIndex, currentSkillIndex, showAgeIntro])
 
-  const recordResponse = (respondents) => {
+  const updateAuditData = (respondents) => {
     const ageKey = currentAge
     const skillName = currentSkill.skill
 
@@ -53,18 +54,34 @@ function App() {
         [skillName]: respondents
       }
     }))
+  }
 
-    // Move to next skill or show summary
-    if (currentSkillIndex < currentSkills.length - 1) {
-      setCurrentSkillIndex(currentSkillIndex + 1)
-    } else {
-      // End of chapter - show summary
-      setShowSummary(true)
+  const goToNextSkill = () => {
+    setIsTransitioning(true)
+    setTimeout(() => {
+      if (currentSkillIndex < currentSkills.length - 1) {
+        setCurrentSkillIndex(currentSkillIndex + 1)
+      } else {
+        // End of chapter - show summary
+        setShowSummary(true)
+      }
+      setIsTransitioning(false)
+    }, 300)
+  }
+
+  const goToPreviousSkill = () => {
+    if (currentSkillIndex > 0) {
+      setIsTransitioning(true)
+      setTimeout(() => {
+        setCurrentSkillIndex(currentSkillIndex - 1)
+        setIsTransitioning(false)
+      }, 300)
     }
   }
 
   const handleAllCanDo = () => {
-    recordResponse([...people])
+    updateAuditData([...people])
+    goToNextSkill()
   }
 
   const handleIndividualResponse = (person) => {
@@ -75,10 +92,10 @@ function App() {
     if (current.includes(person)) {
       // Remove person
       const updated = current.filter(p => p !== person)
-      recordResponse(updated)
+      updateAuditData(updated)
     } else {
       // Add person
-      recordResponse([...current, person])
+      updateAuditData([...current, person])
     }
   }
 
@@ -309,7 +326,7 @@ function App() {
           </button>
         </div>
 
-        <div className="skill-card">
+        <div className={`skill-card ${isTransitioning ? 'transitioning' : ''}`}>
           <h2 className="skill-title">{currentSkill.skill}</h2>
           <p className="skill-description">{currentSkill.description}</p>
 
@@ -332,11 +349,18 @@ function App() {
               ))}
             </div>
 
-            {currentResponses.length > 0 && (
-              <button className="btn-next" onClick={() => recordResponse(currentResponses)}>
-                Next Skill →
-              </button>
-            )}
+            <div className="navigation-buttons">
+              {currentSkillIndex > 0 && (
+                <button className="btn-back" onClick={goToPreviousSkill}>
+                  ← Back
+                </button>
+              )}
+              {currentResponses.length > 0 && (
+                <button className="btn-next" onClick={goToNextSkill}>
+                  Next Skill →
+                </button>
+              )}
+            </div>
           </div>
         </div>
       </div>
