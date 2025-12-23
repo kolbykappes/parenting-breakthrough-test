@@ -1,0 +1,646 @@
+{
+  "skills_by_age": {
+    "3": [
+      {
+        "skill": "Dress self",
+        "description": "Put on clothes independently, including shirts, pants, and shoes"
+      },
+      {
+        "skill": "Use toilet",
+        "description": "Use the bathroom independently, including wiping and hand washing"
+      },
+      {
+        "skill": "Brush teeth",
+        "description": "Brush teeth with supervision, learning proper technique"
+      },
+      {
+        "skill": "Pick up toys",
+        "description": "Clean up play areas and put toys back where they belong"
+      },
+      {
+        "skill": "Basic digital device etiquette",
+        "description": "Ask permission before using tablets or screens, understand screen time limits"
+      },
+      {
+        "skill": "Recognize emergency numbers",
+        "description": "Know what 911 is for, even if unable to dial yet"
+      }
+    ],
+    "4": [
+      {
+        "skill": "Make bed",
+        "description": "Straighten sheets and blankets, arrange pillows"
+      },
+      {
+        "skill": "Make breakfast - cereal",
+        "description": "Pour cereal and milk independently"
+      },
+      {
+        "skill": "Make sandwiches",
+        "description": "Prepare simple sandwiches with cold ingredients"
+      }
+    ],
+    "5": [
+      {
+        "skill": "Vacuum",
+        "description": "Use vacuum cleaner in small areas and rooms"
+      },
+      {
+        "skill": "Empty garbage cans",
+        "description": "Remove trash bags and replace with new ones"
+      },
+      {
+        "skill": "Set table",
+        "description": "Place plates, utensils, and napkins for meals"
+      },
+      {
+        "skill": "Clear table",
+        "description": "Remove dishes and items after meals"
+      },
+      {
+        "skill": "Make lunch",
+        "description": "Prepare simple cold lunches independently"
+      },
+      {
+        "skill": "Microwave canned food",
+        "description": "Heat soup or other canned items safely in microwave"
+      },
+      {
+        "skill": "Basic password awareness",
+        "description": "Understand that passwords are private and should not be shared"
+      },
+      {
+        "skill": "Video call basics",
+        "description": "Answer and talk to family on FaceTime, Zoom, or similar with supervision"
+      }
+    ],
+    "6": [
+      {
+        "skill": "Take shower",
+        "description": "Bathe independently, including washing hair and body"
+      },
+      {
+        "skill": "Load dishwasher",
+        "description": "Place dishes properly in dishwasher and add detergent"
+      },
+      {
+        "skill": "Empty dishwasher",
+        "description": "Put clean dishes away in correct locations"
+      },
+      {
+        "skill": "Clean sinks",
+        "description": "Wipe down and rinse bathroom and kitchen sinks"
+      },
+      {
+        "skill": "Water plants",
+        "description": "Water indoor and outdoor plants on schedule"
+      },
+      {
+        "skill": "Make phone calls",
+        "description": "Dial numbers and have basic phone conversations"
+      },
+      {
+        "skill": "Shake hands",
+        "description": "Greet adults appropriately with handshake and eye contact"
+      },
+      {
+        "skill": "Checkers and simple board games",
+        "description": "Play age-appropriate board games, follow rules, take turns"
+      }
+    ],
+    "7": [
+      {
+        "skill": "Wash dishes by hand",
+        "description": "Scrub, rinse, and dry dishes properly"
+      },
+      {
+        "skill": "Floss teeth",
+        "description": "Floss between teeth daily as part of dental hygiene"
+      },
+      {
+        "skill": "Clean toilets",
+        "description": "Scrub and disinfect toilets inside and out"
+      },
+      {
+        "skill": "Pull weeds",
+        "description": "Identify and remove weeds from garden areas"
+      },
+      {
+        "skill": "Read with comprehension",
+        "description": "Read age-appropriate books and understand the content"
+      },
+      {
+        "skill": "Do own hair",
+        "description": "Brush, comb, and style hair independently"
+      },
+      {
+        "skill": "What basic medicines do",
+        "description": "Understand purpose of common medicines like pain relievers, allergy medication"
+      },
+      {
+        "skill": "Poison control",
+        "description": "Know when and how to contact poison control in emergencies"
+      },
+      {
+        "skill": "Distinguish reliable online content",
+        "description": "Begin understanding difference between ads, games, and educational content"
+      },
+      {
+        "skill": "Basic keyboarding",
+        "description": "Simple typing skills, proper use of mouse or trackpad"
+      },
+      {
+        "skill": "Take photos/videos appropriately",
+        "description": "Understand when it's appropriate to take pictures, basic digital citizenship"
+      }
+    ],
+    "8": [
+      {
+        "skill": "Groom nails",
+        "description": "Trim and file fingernails and toenails safely"
+      },
+      {
+        "skill": "Wake up on your own",
+        "description": "Use alarm clock and get up independently for school"
+      },
+      {
+        "skill": "Clean mirrors",
+        "description": "Clean mirrors and glass surfaces without streaks"
+      },
+      {
+        "skill": "Care for a pet",
+        "description": "Feed, water, and provide basic care for family pets"
+      },
+      {
+        "skill": "Own email account (monitored)",
+        "description": "Use email for communication with parent oversight"
+      },
+      {
+        "skill": "Shoot and care for guns",
+        "description": "If applicable to family, learn gun safety and proper handling"
+      },
+      {
+        "skill": "Basic rules of football / how to watch",
+        "description": "Understand scoring, basic positions, and how the game works"
+      },
+      {
+        "skill": "Basic rules of basketball / how to watch",
+        "description": "Understand scoring, fouls, and basic flow of the game"
+      }
+    ],
+    "9": [
+      {
+        "skill": "Mop floor",
+        "description": "Clean hard floors with mop and appropriate cleaning solution"
+      },
+      {
+        "skill": "Bake cakes",
+        "description": "Follow recipe to bake cakes with minimal supervision"
+      },
+      {
+        "skill": "Bake cookies",
+        "description": "Prepare and bake cookies from scratch or mix"
+      },
+      {
+        "skill": "Basic emergency preparedness",
+        "description": "Know location of fire extinguisher, emergency exits, family meeting place"
+      },
+      {
+        "skill": "Basic first aid",
+        "description": "Clean and bandage cuts, treat minor burns, recognize when to get help"
+      },
+      {
+        "skill": "Fill car with gas",
+        "description": "Pump gas safely, including payment and nozzle operation"
+      },
+      {
+        "skill": "Wash car",
+        "description": "Wash exterior of car by hand or at car wash"
+      },
+      {
+        "skill": "Vacuum interior of car",
+        "description": "Clean car seats, floor mats, and interior surfaces"
+      },
+      {
+        "skill": "Hammer nails",
+        "description": "Use hammer safely to drive nails for basic projects"
+      },
+      {
+        "skill": "Saw wood",
+        "description": "Use hand saw safely for simple cutting projects"
+      },
+      {
+        "skill": "Cook vegetables - raw",
+        "description": "Prepare raw vegetables for cooking or eating"
+      },
+      {
+        "skill": "Write letters",
+        "description": "Compose and address formal letters or thank you notes"
+      },
+      {
+        "skill": "Understand puberty and sex",
+        "description": "Age-appropriate education about body changes and reproduction"
+      },
+      {
+        "skill": "Use email",
+        "description": "Compose, send, and manage email correspondence"
+      },
+      {
+        "skill": "Understand basic science",
+        "description": "Grasp fundamental scientific concepts and scientific method"
+      },
+      {
+        "skill": "Wrap presents",
+        "description": "Wrap gifts neatly with paper, tape, and ribbon"
+      },
+      {
+        "skill": "Sew on buttons",
+        "description": "Hand-sew buttons back onto clothing"
+      },
+      {
+        "skill": "Evaluate online sources",
+        "description": "Begin critical thinking about credibility of what they read online"
+      },
+      {
+        "skill": "Digital file organization",
+        "description": "Create folders, save documents properly, find files on computer"
+      }
+    ],
+    "10": [
+      {
+        "skill": "Do own laundry",
+        "description": "Wash, dry, fold, and put away laundry independently"
+      },
+      {
+        "skill": "Play musical instrument",
+        "description": "Learn and practice an instrument regularly"
+      },
+      {
+        "skill": "Maintain exercise program",
+        "description": "Engage in regular physical activity or sports"
+      },
+      {
+        "skill": "Clean stove top",
+        "description": "Clean cooking surfaces and remove spills and stains"
+      },
+      {
+        "skill": "Clean oven",
+        "description": "Clean oven interior with appropriate products"
+      },
+      {
+        "skill": "Make raw salads",
+        "description": "Prepare fresh salads with vegetables and dressings"
+      },
+      {
+        "skill": "Understand nutrition",
+        "description": "Know basics of healthy eating, food groups, balanced meals"
+      },
+      {
+        "skill": "Plant plants",
+        "description": "Plant seeds or transplants in garden or containers"
+      },
+      {
+        "skill": "Place a long distance / international call",
+        "description": "Understand how to dial different types of calls"
+      },
+      {
+        "skill": "Clean carpets / run cleaner",
+        "description": "Operate carpet cleaner or steam cleaner for deep cleaning"
+      }
+    ],
+    "11": [
+      {
+        "skill": "Arrange for own haircuts",
+        "description": "Schedule appointments and communicate with stylist"
+      },
+      {
+        "skill": "Clean refrigerator",
+        "description": "Remove items, wipe shelves, check expiration dates"
+      },
+      {
+        "skill": "Clean cupboards",
+        "description": "Organize and clean kitchen cabinets and pantry"
+      },
+      {
+        "skill": "Straighten drawers",
+        "description": "Organize and declutter dresser and desk drawers"
+      },
+      {
+        "skill": "Straighten closets",
+        "description": "Organize closet space, hang clothes properly, maintain order"
+      },
+      {
+        "skill": "Sew hems",
+        "description": "Hand-sew or use machine to hem pants or skirts"
+      },
+      {
+        "skill": "Bake pies",
+        "description": "Make pie crust and filling from scratch"
+      },
+      {
+        "skill": "Bake bread",
+        "description": "Prepare and bake yeast bread or quick breads"
+      },
+      {
+        "skill": "Make several main dishes",
+        "description": "Cook complete meals including protein and sides"
+      },
+      {
+        "skill": "Iron clothes",
+        "description": "Iron shirts, pants, and other garments properly"
+      },
+      {
+        "skill": "Plan meals",
+        "description": "Create weekly meal plans considering nutrition and preferences"
+      },
+      {
+        "skill": "Mow lawn",
+        "description": "Operate push or riding mower safely to cut grass"
+      },
+      {
+        "skill": "Basic arithmetic skills",
+        "description": "Proficiency in addition, subtraction, multiplication, division, fractions"
+      },
+      {
+        "skill": "Use a camera",
+        "description": "Take quality photos, understand composition and lighting basics"
+      }
+    ],
+    "12": [
+      {
+        "skill": "Read newspaper / news sites",
+        "description": "Stay informed about current events through various news sources"
+      },
+      {
+        "skill": "Speak in public",
+        "description": "Give presentations or speeches with confidence"
+      },
+      {
+        "skill": "Understand weight control",
+        "description": "Know about healthy weight management and body image"
+      },
+      {
+        "skill": "Make and keep dentist appointment",
+        "description": "Schedule and attend dental appointments independently"
+      },
+      {
+        "skill": "Make and keep doctor appointment",
+        "description": "Schedule and attend medical appointments independently"
+      },
+      {
+        "skill": "Keep a personal calendar",
+        "description": "Manage schedule using digital or paper calendar"
+      },
+      {
+        "skill": "Order something online",
+        "description": "Navigate e-commerce sites, complete purchases with supervision"
+      },
+      {
+        "skill": "Use Microsoft Word (or equivalent)",
+        "description": "Create and format documents for school or personal use"
+      },
+      {
+        "skill": "Use Microsoft Excel (or equivalent)",
+        "description": "Create spreadsheets, use basic formulas and formatting"
+      },
+      {
+        "skill": "Check fluids in car",
+        "description": "Check and top off oil, coolant, washer fluid"
+      },
+      {
+        "skill": "Hang a picture straight",
+        "description": "Use level and appropriate hardware to hang wall decorations"
+      },
+      {
+        "skill": "Learn about tools, which does what",
+        "description": "Identify common tools and understand their purposes"
+      },
+      {
+        "skill": "Breaker boxes / fuses",
+        "description": "Locate and reset breakers, understand electrical safety"
+      },
+      {
+        "skill": "How to babysit",
+        "description": "Safely supervise younger children, handle emergencies"
+      },
+      {
+        "skill": "Two-factor authentication awareness",
+        "description": "Understand why 2FA exists and how to use it for account security"
+      },
+      {
+        "skill": "Identify phishing/scams",
+        "description": "Recognize suspicious emails, texts, messages, and requests for information"
+      }
+    ],
+    "13": [
+      {
+        "skill": "Own social media account (monitored)",
+        "description": "Use social media responsibly with parent oversight of activity"
+      },
+      {
+        "skill": "Shop for clothing / basic fashion awareness",
+        "description": "Select appropriate clothing, understand fit and style"
+      },
+      {
+        "skill": "Plan parties",
+        "description": "Organize guest list, activities, food, and logistics for events"
+      },
+      {
+        "skill": "Shop for groceries",
+        "description": "Navigate store, find items, compare prices, check quality"
+      },
+      {
+        "skill": "Use an ATM",
+        "description": "Withdraw cash, check balance, understand transaction fees"
+      },
+      {
+        "skill": "Certify for CPR",
+        "description": "Complete CPR certification course for emergency response"
+      },
+      {
+        "skill": "Type without looking at keyboard",
+        "description": "Touch-type efficiently for faster computer work"
+      },
+      {
+        "skill": "Go to movies without parent",
+        "description": "Attend movies with friends independently, manage transportation"
+      },
+      {
+        "skill": "Understand prescriptions",
+        "description": "Read medication labels, understand dosage and instructions"
+      },
+      {
+        "skill": "Have own cell phone",
+        "description": "Use cell phone responsibly, follow family guidelines"
+      },
+      {
+        "skill": "Understand cell phone charges and plans",
+        "description": "Know about data usage, overage charges, plan limits"
+      },
+      {
+        "skill": "Understand meat handling rules",
+        "description": "Know food safety for raw meat, proper temperatures, cross-contamination"
+      },
+      {
+        "skill": "Learn etiquette rules",
+        "description": "Understand proper manners for various social situations"
+      },
+      {
+        "skill": "Clean garage",
+        "description": "Organize, sweep, and maintain garage space"
+      },
+      {
+        "skill": "Sell items on Craigslist",
+        "description": "List items online, communicate with buyers safely"
+      },
+      {
+        "skill": "AI tool literacy",
+        "description": "Appropriate use of ChatGPT and similar tools, understand AI capabilities and limitations, maintain academic integrity"
+      },
+      {
+        "skill": "Digital footprint awareness",
+        "description": "Understand permanence of online posts, consider professional presence implications"
+      },
+      {
+        "skill": "Basic cybersecurity hygiene",
+        "description": "Create strong passwords, avoid clicking suspicious links, recognize social engineering attempts"
+      }
+    ],
+    "14": [
+      {
+        "skill": "Memorize social security number",
+        "description": "Know SSN for forms and applications, understand importance of protecting it"
+      },
+      {
+        "skill": "Understand and use debit cards",
+        "description": "Use debit card for purchases, track spending, check balances"
+      },
+      {
+        "skill": "Learn how interest, debt and securities work",
+        "description": "Understand compound interest, credit card debt, basic investing concepts"
+      },
+      {
+        "skill": "Learn and have own makeup",
+        "description": "If desired, learn to apply makeup appropriately for age"
+      },
+      {
+        "skill": "Learn basic civics and politics",
+        "description": "Understand government structure, voting process, current issues"
+      },
+      {
+        "skill": "Accompany parent to vote",
+        "description": "Observe voting process, understand civic responsibility"
+      },
+      {
+        "skill": "Perform car detailing",
+        "description": "Deep clean car interior and exterior to professional standard"
+      },
+      {
+        "skill": "Change flat",
+        "description": "Use jack and tools to change a flat tire safely"
+      },
+      {
+        "skill": "Understand basics of car operations",
+        "description": "Know how cars work, basic maintenance schedules, warning lights"
+      },
+      {
+        "skill": "Do simple household repairs",
+        "description": "Fix leaky faucets, patch holes, replace batteries, minor fixes"
+      },
+      {
+        "skill": "How to interact with police",
+        "description": "Understand rights, how to respond during traffic stops or encounters"
+      },
+      {
+        "skill": "Birth control options",
+        "description": "Age-appropriate education about contraception and family planning"
+      },
+      {
+        "skill": "STDs and risks / prevention",
+        "description": "Understand sexually transmitted diseases, prevention, and testing"
+      },
+      {
+        "skill": "How and when to tip / gratuities",
+        "description": "Know appropriate tipping percentages for various services"
+      },
+      {
+        "skill": "Alcohol consumption and risks",
+        "description": "Understand effects of alcohol, legal issues, health risks, responsible decisions"
+      },
+      {
+        "skill": "Pot consumption and risks",
+        "description": "Understand marijuana effects, legal status, health implications"
+      },
+      {
+        "skill": "Read a road map / Google Maps",
+        "description": "Navigate using maps, understand directions, plan routes"
+      },
+      {
+        "skill": "Manage digital subscriptions",
+        "description": "Understand what family pays for streaming services, subscriptions, how they work"
+      }
+    ],
+    "16": [
+      {
+        "skill": "Get driver's license",
+        "description": "Complete driver's education, pass tests, obtain license"
+      },
+      {
+        "skill": "Understand credit cards",
+        "description": "Know how credit works, interest rates, credit scores, responsible use"
+      },
+      {
+        "skill": "Learn about retirement plans",
+        "description": "Understand 401k, IRA, importance of early saving for retirement"
+      },
+      {
+        "skill": "Create a resume",
+        "description": "Write professional resume highlighting skills and experience"
+      },
+      {
+        "skill": "Understand how to interview",
+        "description": "Prepare for job interviews, answer questions professionally, follow up"
+      },
+      {
+        "skill": "Understand advertising",
+        "description": "Recognize marketing techniques, understand persuasion tactics"
+      },
+      {
+        "skill": "Understand insurance",
+        "description": "Know basics of health, auto, renter's insurance and why it's needed"
+      },
+      {
+        "skill": "File an insurance claim",
+        "description": "Document incidents, complete claim forms, communicate with insurers"
+      },
+      {
+        "skill": "Arrange for car insurance",
+        "description": "Get quotes, compare coverage, understand policy terms"
+      },
+      {
+        "skill": "Open checking account",
+        "description": "Open bank account, understand fees, maintain minimum balance"
+      },
+      {
+        "skill": "File tax return",
+        "description": "Complete and file simple tax return using W-2 and basic forms"
+      },
+      {
+        "skill": "Understand titling vehicles / registration",
+        "description": "Know process for registering cars, transferring titles, renewals"
+      },
+      {
+        "skill": "Deal with an auto mechanic",
+        "description": "Describe car problems, understand estimates, ask appropriate questions"
+      },
+      {
+        "skill": "Plan landscaping",
+        "description": "Design outdoor spaces, select plants, plan maintenance schedules"
+      },
+      {
+        "skill": "LinkedIn profile creation",
+        "description": "Build professional networking profile for college and career preparation"
+      }
+    ]
+  }
+}
