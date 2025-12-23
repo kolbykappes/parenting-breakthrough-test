@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import skillsData from './source-categories.json'
 import config from './config.json'
+import splashImage from './assets/splash.png'
 import './App.css'
 
 function App() {
@@ -192,6 +193,7 @@ function App() {
       <div className="app">
         <div className="container">
           <div className="age-intro-card">
+            <img src={splashImage} alt="The Kappes Family Parenting Breakthrough" className="splash-image" />
             <h1>Age {currentAge}</h1>
             <p className="skill-count">{currentSkills.length} skills to review</p>
             <button className="btn-primary" onClick={() => setShowAgeIntro(false)}>

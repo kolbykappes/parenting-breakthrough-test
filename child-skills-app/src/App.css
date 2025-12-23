@@ -95,6 +95,17 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Splash Image */
+.splash-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
 /* Response Section */
 .response-section {
   margin-top: 2rem;
