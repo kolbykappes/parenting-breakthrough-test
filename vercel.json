@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd child-skills-app && npm run build",
+  "outputDirectory": "child-skills-app/dist",
+  "devCommand": "cd child-skills-app && npm run dev",
+  "installCommand": "cd child-skills-app && npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
