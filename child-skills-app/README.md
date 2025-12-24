@@ -115,3 +115,4 @@ Works on all modern browsers that support:
 - localStorage API
 - ES6+ JavaScript
 - CSS Grid and Flexbox
+
