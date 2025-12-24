@@ -194,8 +194,10 @@ function App() {
         <div className="container">
           <div className="age-intro-card">
             <img src={splashImage} alt="The Kappes Family Parenting Breakthrough" className="splash-image" />
-            <h1>Age {currentAge}</h1>
-            <p className="skill-count">{currentSkills.length} skills to review</p>
+            <div className="age-header">
+              <h1>Age {currentAge}</h1>
+              <p className="skill-count">{currentSkills.length} skills to review</p>
+            </div>
             <button className="btn-primary" onClick={() => setShowAgeIntro(false)}>
               Start Chapter
             </button>

@@ -95,6 +95,24 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Age Header */
+.age-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+
+.age-header h1 {
+  margin: 0;
+}
+
+.age-header .skill-count {
+  margin: 0;
+  font-size: 1rem;
+  text-align: right;
+}
+
 /* Splash Image */
 .splash-image {
   width: 100%;
@@ -230,7 +248,7 @@ body {
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
 }
 
